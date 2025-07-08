@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+    color: beige;
+}
+
+h1 {
+    color: aqua;
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li :hover {
+    color: chocolate;
+}
+
+ul li :nth-child(3) {
+    background-color: crimson;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "🍫";
+}
+
+ul li::after {
+    content: 🍬;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: yellow;
+
+
+
+
+
+
+
+
+
