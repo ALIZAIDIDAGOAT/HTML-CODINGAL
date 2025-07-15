@@ -50,6 +50,7 @@ ul li::after {
 p::first-letter {
     font-size: 200%;
     color: yellow;
+}
 
 
 
